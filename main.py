@@ -31,7 +31,7 @@ def main():
     f = _next(f)
     output_field(f, step=i)
   os.system('convert -delay 5 -loop 0 ./tmp/*.png ./output/movie.gif')
-  os.system('rm ./tmp/*')
+  os.system('rm ./tmp/*.png')
     
 
 def _next(f):
