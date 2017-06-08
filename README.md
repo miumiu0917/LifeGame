@@ -6,7 +6,7 @@ python3.5以上で動作確認してます。
 # 遊び方
 imagemagickのインストール
 ~~~
-sudo apt-get install imagemagick
+sudo apt-get install imagemagick # Ubuntuの場合
 ~~~
 pipパッケージのインストール
 ~~~
